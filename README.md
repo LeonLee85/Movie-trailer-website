@@ -1,5 +1,5 @@
 # Movie-trailer-website
-a website that shows the favorite movies and trailer</p> 
+a website that shows the favorite movies and trailer for udacoty full-stack training project 1</p> 
 <strong>fresh_tomatoes.py</strong> --- the one include the html code, when call the funtion open_movies_page, program will generate a html file and open in default broswer.</p>
 <strong>media.py</strong> --- define the basic class, media and movie, movie is the inherience of the media.</p>
 <strong>entertainment_center.py</strong> --- to create instances for differnt movies, this one is supporse to be run in the IDLE, then will generate the html file.</p>
