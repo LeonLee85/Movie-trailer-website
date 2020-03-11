@@ -142,7 +142,8 @@ movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youku-id="{trailer_youku_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
-    <font size=3>Trailer duration: {duration_time} mins</font>
+    <p><font size=4><em>{story_line}</em></font></p>
+    <p><font size=3>Trailer duration: {duration_time} mins</font></p>
 </div>
 '''
 
@@ -162,7 +163,8 @@ def create_movie_tiles_content(movies):
             movie_title=movie.title,
             poster_image_url=movie.poster_image_url,
             trailer_youku_id=movie.trailer_youku_url,
-            duration_time=movie.duration
+            duration_time=movie.duration,
+            story_line=movie.storyline
         )
 
     return content

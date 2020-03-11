@@ -3,10 +3,9 @@ import media
 import fresh_tomatoes
 
 # Avengers 4
-avengers4_storyline = "It tells the story of the avengers and their \
-superhero Allies who must be willing to sacrifice everything to defeat \
-the universe before it destroys it."
-avengers4_image = "https://bkimg.cdn.bcebos.com/pic/2cf5e0fe9925bc31a5ffa7e950df8db1cb137025?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UyNzI=,xp_5,yp_5"
+avengers4_storyline = "- I am inevitable! - I am Iron Man!!!"
+avengers4_image = "https://bkimg.cdn.bcebos.com/pic/2cf5e0fe9925bc31a5ffa7e950df8db1cb137025?\
+x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UyNzI=,xp_5,yp_5"
 
 # Avatar
 avatar_storyline = "The film focuses on human beings who put on avatar's \
@@ -46,8 +45,8 @@ ike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=98778280d3c8a786aa27425c0660a258/d3\
 1b0ef41bd5ad6e60ac469083cb39dbb6fd3c76.jpg"
 
 # define instance
-avengers4 = media.Movie("The Avengers 4", "1", avengers4_image,
-                          "XNDMwODU0OTkyMA", avengers4_storyline,)
+avengers4 = media.Movie("The Avengers 4", "3", avengers4_image,
+                          "XMzk1NDI4OTc3Ng", avengers4_storyline,)
 readyplayerone = media.Movie("Ready Player One", "3", readyplayerone_image,
                              "XMzQ3MzcyMzI2NA", avatar_storyline)
 deadpool2 = media.Movie("Deadpool 2", "3", deadpool2_image,
